@@ -1,0 +1,19 @@
+.container{
+   display: flex;
+   flex-flow: row wrap;
+   height: 300px;
+   /*align-items: center;*/
+   align-content:stretch;
+   background-color: aqua;
+   padding: 20px;
+   border: 2px dotted burlywood;
+}
+.container > div{
+    background-color: coral;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+    border: 2px solid red;
+}
